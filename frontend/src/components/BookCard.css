@@ -1,0 +1,109 @@
+.book-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.book-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.book-title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+  flex: 1;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-badge.available {
+  background-color: #4caf50;
+  color: white;
+}
+
+.status-badge.unavailable {
+  background-color: #f44336;
+  color: white;
+}
+
+.book-card-body {
+  margin-bottom: 15px;
+}
+
+.book-card-body p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.book-card-body strong {
+  color: #333;
+  margin-right: 5px;
+}
+
+.book-description {
+  margin-top: 10px;
+  font-style: italic;
+  color: #777;
+}
+
+.book-card-actions {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-edit {
+  background-color: #2196f3;
+  color: white;
+  flex: 1;
+}
+
+.btn-edit:hover {
+  background-color: #1976d2;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+  flex: 1;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+}
+
+
+

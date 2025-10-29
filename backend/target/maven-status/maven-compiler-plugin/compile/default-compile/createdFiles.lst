@@ -1,0 +1,6 @@
+com\library\librarymanagementsystem\service\BookService.class
+com\library\librarymanagementsystem\repository\BookRepository.class
+com\library\librarymanagementsystem\config\DatabaseInitializer.class
+com\library\librarymanagementsystem\model\Book.class
+com\library\librarymanagementsystem\LibraryManagementSystemApplication.class
+com\library\librarymanagementsystem\controller\BookController.class
